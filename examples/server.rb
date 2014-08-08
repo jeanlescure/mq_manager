@@ -17,5 +17,6 @@ end
 server = MqManager.start('server',nil,{'bind_address' => 'tcp://127.0.0.1:5000','worker' => my_worker})
 
 loop do
-
+  #Since the server runs on a thread, 
+  #we loop so this script doesn't die
 end
