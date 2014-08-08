@@ -1,0 +1,1 @@
+MqManager.load_config
